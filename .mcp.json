@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rundrill-gcp": {
+      "type": "http",
+      "url": "https://mcp.rundrill.com/skills/gcp"
+    }
+  }
+}

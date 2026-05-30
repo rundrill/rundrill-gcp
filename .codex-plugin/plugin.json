@@ -1,0 +1,33 @@
+{
+  "name": "rundrill-gcp",
+  "version": "0.1.0",
+  "description": "Google Cloud certification coach — prep Cloud Digital Leader, the Associate certs (Cloud Engineer, Data Practitioner, Workspace Admin), and the Professional certs (Architect, Developer, DevOps, Security, Network, Data, Database, ML) by choosing the best service under constraints and reviewing real configs for the planted flaw, with drills, progress, mistake memory, and timed mock exams, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "repository": "https://github.com/rundrill/rundrill-gcp",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "gcp", "google-cloud", "certification", "cloud-engineer", "cloud-architect", "data-engineer", "devops", "security", "network", "exam-prep"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "RunDrill Google Cloud",
+    "shortDescription": "Google Cloud cert coach: choose the best service under constraints, review configs for the planted flaw, sit timed mock exams.",
+    "longDescription": "An interactive Google Cloud certification coach for the whole ladder — Foundational (Cloud Digital Leader) → Associate (Cloud Engineer, Data Practitioner, Workspace Administrator) → Professional (Cloud Architect, Developer, DevOps, Security, Network, Data Engineer, Database, Machine Learning). Blended drills pair an exam-style scenario decision (choose the BEST service for the stated constraint — cost, latency, availability, security, data residency — and say why NOT the plausible alternatives) with a hands-on console/gcloud/Terraform task you run in your own Google Cloud project. Signature drill: review a real Google Cloud config (an IAM allow/deny policy, an org-policy constraint, a VPC firewall ruleset, a gcloud/Terraform snippet) and find the planted flaw — a primitive-role over-grant, a single point of failure, an insecure default, an unreachable route, a cost trap. Plus timed, domain-weighted mock exams as a per-cert boss battle. Backed by the RunDrill MCP engine with progress tracking and mistake memory.",
+    "developerName": "RunDrill",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://rundrill.com",
+    "defaultPrompt": [
+      "Start a Google Cloud drill session.",
+      "Give me a scenario and let me choose the right service and justify it.",
+      "Show me an IAM policy and let me find what's wrong with it."
+    ],
+    "brandColor": "#4285F4",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

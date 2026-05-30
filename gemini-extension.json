@@ -1,0 +1,16 @@
+{
+  "name": "rundrill-gcp",
+  "version": "0.1.0",
+  "description": "Google Cloud certification coach — drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "mcpServers": {
+    "rundrill-gcp": {
+      "serverURL": "https://mcp.rundrill.com/skills/gcp"
+    }
+  }
+}
