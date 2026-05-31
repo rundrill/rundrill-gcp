@@ -1,6 +1,6 @@
 {
   "name": "rundrill-gcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Google Cloud certification coach — prep Cloud Digital Leader, the Associate certs (Cloud Engineer, Data Practitioner, Workspace Admin), and the Professional certs (Architect, Developer, DevOps, Security, Network, Data, Database, ML) by choosing the best service under constraints and reviewing real configs for the planted flaw, with drills, progress, mistake memory, and timed mock exams, inside your AI agent.",
   "author": {
     "name": "RunDrill",
